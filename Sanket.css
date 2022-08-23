@@ -1,0 +1,159 @@
+/*Nav Bar*/
+.navbar {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: #00203FFF;
+}
+  
+.navbar a {
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+  
+  /* Selectors */
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+	background-color: #ADEFD1FF;
+}
+
+h2{ 
+    color: #00203FFF;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+h3{ 
+    text-align: left;
+    margin: 20px;
+    color: #00203FFF;
+    font-size: 1.5rem;
+}
+
+p{
+    margin: 35px;
+    font-size: 1.2rem;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+li{
+    margin-left: 50px;
+    align-self: start;
+    text-align: left; 
+    font-family: 'Merriweather', serif;
+}
+
+/* IDs  */
+
+#top-images{
+    position: sticky;
+    height: 150px;
+    width: 150px;
+    margin:0;
+}
+
+#top-images:hover{
+    transform: scale(1.25);
+    opacity: 0.8;
+}
+
+#image-name{
+    background-color: #ADEFD1FF;
+    height: 270px;
+    width: 270px;
+}
+
+#blank-hr{
+    border-style: none;
+    border-width: 10px;
+    width: 7%;
+    margin-top: 25px;
+    color: black;
+}
+
+#image-skills{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 70px;
+    width: 70px;
+    float: left;
+}
+
+#icon{
+    height: 25px;
+    width: 25px;
+    margin-left: 30px;
+}
+
+#icon:hover{
+    background-color: yellow;
+    transform: scale(1.5);
+}
+
+/* Classes */
+
+
+.name{
+    padding: 50px;
+    background-color: #00203FFF;
+    color:#ADEFD1FF;
+}
+
+p.name{
+    margin: 0 auto 0 auto;  
+    padding: 10px;
+    font-size: 7rem;
+    font-family: 'Dancing Script';
+}
+  
+.skills{
+    margin-left: 20px;
+    align-self: start;
+    text-align: left; 
+}
+
+.work-experiance{
+    margin: 20px;
+    align-self: start;
+    text-align: left; 
+    font-family: 'Merriweather', serif;
+}
+
+.Contact{
+    margin: 20px;
+    align-self: start;
+    text-align: left; 
+    font-family: 'Merriweather', serif;
+}
+
+.footer{
+	padding: 2px;;
+    text-align: center;
+    background-color: #00203FFF;
+	font-family: 'Merriweather', serif;
+	font-size: 0.7rem;
+    color: #ADEFD1FF;
+}
